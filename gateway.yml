@@ -29,3 +29,8 @@ spring:
             - Path=/registration/**
 server:
   port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
