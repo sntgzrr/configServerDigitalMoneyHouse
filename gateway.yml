@@ -5,7 +5,7 @@ spring:
     oauth2:
       resource server:
         jwt:
-          issuer-uri: http://localhost:8080/realms/digital-money-house
+          issuer-uri: http://keycloak:8080/realms/digital-money-house
   cloud:
     gateway:
       default-filters:
