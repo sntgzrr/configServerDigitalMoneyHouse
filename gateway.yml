@@ -23,10 +23,6 @@ spring:
           uri: lb://userService
           predicates:
             - Path=/accounts/**
-        - id: registrationUserService
-          uri: lb://registrationUserService
-          predicates:
-            - Path=/registration/**
 server:
   port: 9090
 
